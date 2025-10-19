@@ -1,4 +1,6 @@
 # hs-intention
+![screenshot](./images/screenshot.png)
+
 This Hammerspoon module triggers a system dialog on unlock that prompts the user for their session intention. After the user enters an intention and clicks OK, a Watson frame is started with the intention as the project name.
 
 ## Usage

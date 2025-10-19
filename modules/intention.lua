@@ -18,7 +18,7 @@ function intention.start()
   end
 
   local success, intention_text = hs.osascript.applescript([[
-    display dialog "What are you doing here?" default answer "" with title "Welcome Back"
+    display dialog "What are you doing here?" default answer "" with title "Welcome Back" buttons {"Cancel", "Go"} default button "Go"
     return text returned of result
   ]])
 
